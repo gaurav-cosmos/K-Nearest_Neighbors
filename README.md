@@ -4,5 +4,7 @@ To use the code:<br>
 from KNN.py import KNN<br>
 prediction,confidence = KNN(train_set,test_set,k)<br>
 k = 3 (Default)<br>
-k is the no. of neighbors to use for prediction
+k is the no. of neighbors to use for prediction<br>
+train and test set are pandas dataframe<br>
+function returns the prediction with confidence
 
